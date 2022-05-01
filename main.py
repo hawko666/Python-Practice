@@ -3,12 +3,21 @@
 #print("hello\nworld")
 
 #this is multiline string
-print("""hello
+#print("""hello
       
-      jasjhl
-      fahsdkj;k""")
+#      jasjhl
+#      fahsdkj;k""")
 #concadinating
-print("hello" + " World")
+#print("hello" + " World")
 
 #multiple string
-print("hello" * 10)
+#print("hello" * 10)
+
+#***************************************************lesson 2
+
+#to get user input   input("What is your name")
+#this will print the responce
+#print(input("What is your name"))
+name = "hawko"
+
+print(name)

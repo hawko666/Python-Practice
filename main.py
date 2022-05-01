@@ -18,6 +18,15 @@
 #to get user input   input("What is your name")
 #this will print the responce
 #print(input("What is your name"))
-name = "hawko"
 
-print(name)
+name = input("whats your name ")
+
+print("Hello " + name + ", I am beta\n\n\n")
+
+menu = "black coffee, Espresso, Latte, Cappucino"
+
+print(name + ", What is your order\n" + menu)
+
+order = input()
+
+print(order + ", comeing-up quick !!")

@@ -17,17 +17,17 @@
 
 #to get user input   input("What is your name")
 #this will print the responce
-#print(input("What is your name"))
+#print(input("What is your name\t"))
 
-#name = input("whats your name ")
+name = input("Whats your name \t")
 
-#print("Hello " + name + ", I am beta\n\n\n")
+print("Hello " + name + ", I am beta\n\n\n")
 
-#menu = "black coffee, Espresso, Latte, Cappucino"
+menu = "black coffee, Espresso, Latte, Cappucino"
 
-#print(name + ", What is your order\n" + menu)
+print(name + ", What is your order\n" + menu)
 
-#order = input()
+order = input()
 
 price = 8
 
@@ -39,7 +39,7 @@ total = price * qty
 #converting to string
 print("your total price is " + str(total))
 
-#print(order + ", comeing-up quick !!")
+print(str(qty) + " coffee of " + order + ", comeing-up quick !!")
 
 
 

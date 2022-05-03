@@ -29,6 +29,16 @@
 
 #order = input()
 
+price = 8
+
+qty = int(input("how many cups do you want?\n"))
+
+# can also do int(qty) here
+total = price * qty
+
+#converting to string
+print("your total price is " + str(total))
+
 #print(order + ", comeing-up quick !!")
 
 

@@ -19,14 +19,23 @@
 #this will print the responce
 #print(input("What is your name"))
 
-name = input("whats your name ")
+#name = input("whats your name ")
 
-print("Hello " + name + ", I am beta\n\n\n")
+#print("Hello " + name + ", I am beta\n\n\n")
 
-menu = "black coffee, Espresso, Latte, Cappucino"
+#menu = "black coffee, Espresso, Latte, Cappucino"
 
-print(name + ", What is your order\n" + menu)
+#print(name + ", What is your order\n" + menu)
 
-order = input()
+#order = input()
 
-print(order + ", comeing-up quick !!")
+#print(order + ", comeing-up quick !!")
+
+
+
+
+#***************************************************lesson 3
+#age = 22
+#print(age)
+#print(type(age))
+#python follow bodams rules

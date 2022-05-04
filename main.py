@@ -24,35 +24,55 @@
 name = input("Whats your name \t")
 
 #use exit to end the code
-if name == "ben":
-  print("Get lost!!!")
-  exit
+if name == "ben" or name == "chaman" or name == "loki":
+  evil_status = input("Are you evil?\t")
+  dids_status = int(input("how many evil have you done\t"))
+  if evil_status == "Y" and dids_status > 4:
+    print("Get lost!!!")
+    exit() 
+  else:
+    print("hop in")
 else:
   print("Hello " + name + ", I am beta\n\n\n")
 
-  menu = "black coffee, Espresso, Latte, Cappucino"
+menu = "black coffee, Espresso, Latte, Cappucino"
 
-  print(name + ", What is your order\n" + menu)
+print(name + ", What is your order\n" + menu)
 
-  order = input()
+order = input()
 
+if order == "black coffee":
+  price = 13
+elif order == "Espresso":
+  price = 5
+elif order == "Latte":
+  cream_status = input("Do you like to have wripped cream?")
+  if cream_status == "yes":
+    price = 11
+  else:  
+    price = 5
+    pass
+elif order == "Cappucino":
   price = 8
+else:
+  print("dont have that here")
+  exit()
 
-  qty = int(input("how many cups do you want?\n"))
+qty = int(input("how many cups do you want?\n"))
 
  #can also do int(qty) here
-  total = price * qty
+total = price * qty
 
 #converting to string
-  print("your total price is " + str(total))
+print("your total price is " + str(total))
 
-  print(str(qty) + " coffee of " + order + ", comeing-up quick !!")
+print(str(qty) + " coffee of " + order + ", comeing-up quick !!")
 
 
 #if 2 > 3:
-  print("it's true")
+ # print("it's true")
 #else:
-  print("not true")
+#  print("not true")
 
 
 

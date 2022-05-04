@@ -19,27 +19,40 @@
 #this will print the responce
 #print(input("What is your name\t"))
 
+#***************************************************
+
 name = input("Whats your name \t")
 
-print("Hello " + name + ", I am beta\n\n\n")
+#use exit to end the code
+if name == "ben":
+  print("Get lost!!!")
+  exit
+else:
+  print("Hello " + name + ", I am beta\n\n\n")
 
-menu = "black coffee, Espresso, Latte, Cappucino"
+  menu = "black coffee, Espresso, Latte, Cappucino"
 
-print(name + ", What is your order\n" + menu)
+  print(name + ", What is your order\n" + menu)
 
-order = input()
+  order = input()
 
-price = 8
+  price = 8
 
-qty = int(input("how many cups do you want?\n"))
+  qty = int(input("how many cups do you want?\n"))
 
-# can also do int(qty) here
-total = price * qty
+ #can also do int(qty) here
+  total = price * qty
 
 #converting to string
-print("your total price is " + str(total))
+  print("your total price is " + str(total))
 
-print(str(qty) + " coffee of " + order + ", comeing-up quick !!")
+  print(str(qty) + " coffee of " + order + ", comeing-up quick !!")
+
+
+#if 2 > 3:
+  print("it's true")
+#else:
+  print("not true")
 
 
 
